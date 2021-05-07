@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ccyys/CLionProjects/LearnOpenGL/LearnShader.cpp" "C:/Users/ccyys/CLionProjects/LearnOpenGL/cmake-build-debug/CMakeFiles/LearnOpenGL.dir/LearnShader.cpp.obj"
+  "C:/Users/ccyys/CLionProjects/LearnOpenGL/LearnShader/LearnShader3.cpp" "C:/Users/ccyys/CLionProjects/LearnOpenGL/cmake-build-debug/CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

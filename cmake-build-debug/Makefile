@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-LearnShader.obj: LearnShader.cpp.obj
+LearnShader/LearnShader3.obj: LearnShader/LearnShader3.cpp.obj
 
-.PHONY : LearnShader.obj
+.PHONY : LearnShader/LearnShader3.obj
 
 # target to build an object file
-LearnShader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader.cpp.obj
-.PHONY : LearnShader.cpp.obj
+LearnShader/LearnShader3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.obj
+.PHONY : LearnShader/LearnShader3.cpp.obj
 
-LearnShader.i: LearnShader.cpp.i
+LearnShader/LearnShader3.i: LearnShader/LearnShader3.cpp.i
 
-.PHONY : LearnShader.i
+.PHONY : LearnShader/LearnShader3.i
 
 # target to preprocess a source file
-LearnShader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader.cpp.i
-.PHONY : LearnShader.cpp.i
+LearnShader/LearnShader3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.i
+.PHONY : LearnShader/LearnShader3.cpp.i
 
-LearnShader.s: LearnShader.cpp.s
+LearnShader/LearnShader3.s: LearnShader/LearnShader3.cpp.s
 
-.PHONY : LearnShader.s
+.PHONY : LearnShader/LearnShader3.s
 
 # target to generate assembly for a file
-LearnShader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader.cpp.s
-.PHONY : LearnShader.cpp.s
+LearnShader/LearnShader3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.s
+.PHONY : LearnShader/LearnShader3.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... LearnShader.obj
-	@echo ... LearnShader.i
-	@echo ... LearnShader.s
+	@echo ... LearnShader/LearnShader3.obj
+	@echo ... LearnShader/LearnShader3.i
+	@echo ... LearnShader/LearnShader3.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

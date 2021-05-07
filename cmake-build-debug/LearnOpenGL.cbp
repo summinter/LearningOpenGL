@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/LearnShader.cpp">
+		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/LearnShader/LearnShader3.cpp">
 			<Option target="LearnOpenGL"/>
 		</Unit>
-		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/shader_m.h">
+		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Shader/shader_m.h">
 			<Option target="LearnOpenGL"/>
 		</Unit>
-		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/shader_s.h">
+		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Shader/shader_s.h">
 			<Option target="LearnOpenGL"/>
 		</Unit>
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/src/glad.c">
