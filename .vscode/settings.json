@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "iosfwd": "cpp",
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
