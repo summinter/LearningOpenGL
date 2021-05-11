@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/LearnShader/LearnShader3.cpp">
+		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp">
 			<Option target="LearnOpenGL"/>
 		</Unit>
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Shader/shader_m.h">

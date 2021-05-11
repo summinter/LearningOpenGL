@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-LearnShader/LearnShader3.obj: LearnShader/LearnShader3.cpp.obj
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
 
-.PHONY : LearnShader/LearnShader3.obj
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj
 
 # target to build an object file
-LearnShader/LearnShader3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.obj
-.PHONY : LearnShader/LearnShader3.cpp.obj
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
 
-LearnShader/LearnShader3.i: LearnShader/LearnShader3.cpp.i
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.i: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
 
-.PHONY : LearnShader/LearnShader3.i
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.i
 
 # target to preprocess a source file
-LearnShader/LearnShader3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.i
-.PHONY : LearnShader/LearnShader3.cpp.i
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
 
-LearnShader/LearnShader3.s: LearnShader/LearnShader3.cpp.s
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.s: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
 
-.PHONY : LearnShader/LearnShader3.s
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.s
 
 # target to generate assembly for a file
-LearnShader/LearnShader3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/LearnShader/LearnShader3.cpp.s
-.PHONY : LearnShader/LearnShader3.cpp.s
+Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
+.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... LearnShader/LearnShader3.obj
-	@echo ... LearnShader/LearnShader3.i
-	@echo ... LearnShader/LearnShader3.s
+	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj
+	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.i
+	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
