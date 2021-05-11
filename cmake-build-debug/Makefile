@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.obj: Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj
 
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.obj
 
 # target to build an object file
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.obj
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj
 
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.i: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.i: Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i
 
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.i
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.i
 
 # target to preprocess a source file
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.i
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i
 
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.s: Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.s: Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s
 
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.s
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.s
 
 # target to generate assembly for a file
-Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
-.PHONY : Exercise/Exercise01_Hello_Triangle/Exercise01_3.cpp.s
+Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s
+.PHONY : Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.obj
-	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.i
-	@echo ... Exercise/Exercise01_Hello_Triangle/Exercise01_3.s
+	@echo ... Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.obj
+	@echo ... Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.i
+	@echo ... Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
