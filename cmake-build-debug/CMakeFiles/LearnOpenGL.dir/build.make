@@ -76,19 +76,19 @@ include CMakeFiles/LearnOpenGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LearnOpenGL.dir/flags.make
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj: CMakeFiles/LearnOpenGL.dir/flags.make
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj: CMakeFiles/LearnOpenGL.dir/includes_CXX.rsp
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj: ../Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ccyys\CLionProjects\LearnOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp.obj -c C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj: CMakeFiles/LearnOpenGL.dir/flags.make
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj: CMakeFiles/LearnOpenGL.dir/includes_CXX.rsp
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj: ../Exercise/Exercise04_Transformation/Exercise04_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ccyys\CLionProjects\LearnOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise04_Transformation\Exercise04_2.cpp.obj -c C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise04_Transformation\Exercise04_2.cpp
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp > CMakeFiles\LearnOpenGL.dir\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp.i
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise04_Transformation\Exercise04_2.cpp > CMakeFiles\LearnOpenGL.dir\Exercise\Exercise04_Transformation\Exercise04_2.cpp.i
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise03_Texture\Exercise03_4\Exercise03_4.cpp.s
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise04_Transformation\Exercise04_2.cpp -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise04_Transformation\Exercise04_2.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/src/glad.c.obj: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/glad.c.obj: CMakeFiles/LearnOpenGL.dir/includes_C.rsp
@@ -106,13 +106,13 @@ CMakeFiles/LearnOpenGL.dir/src/glad.c.s: cmake_force
 
 # Object files for target LearnOpenGL
 LearnOpenGL_OBJECTS = \
-"CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj" \
+"CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj" \
 "CMakeFiles/LearnOpenGL.dir/src/glad.c.obj"
 
 # External object files for target LearnOpenGL
 LearnOpenGL_EXTERNAL_OBJECTS =
 
-LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/Exercise/Exercise03_Texture/Exercise03_4/Exercise03_4.cpp.obj
+LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj
 LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/src/glad.c.obj
 LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/build.make
 LearnOpenGL.exe: ../lib/glfw3.dll
