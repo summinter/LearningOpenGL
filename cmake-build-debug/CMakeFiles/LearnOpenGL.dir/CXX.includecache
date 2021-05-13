@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../Shader/shader_s.h
+../Shader/shader_m.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -1512,7 +1512,7 @@ intrin.h
 arm_neon.h
 -
 
-C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise04_Transformation/Exercise04_2.cpp
+C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise05_Coordinate/Exercise05_3.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -1525,8 +1525,8 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
-../Shader/shader_s.h
-C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Shader/shader_s.h
+../Shader/shader_m.h
+C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Shader/shader_m.h
 iostream
 -
 

@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise04_Transformation/Exercise04_2.obj: Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj
+Exercise/Exercise05_Coordinate/Exercise05_3.obj: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
 
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.obj
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.obj
 
 # target to build an object file
-Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj
+Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
 
-Exercise/Exercise04_Transformation/Exercise04_2.i: Exercise/Exercise04_Transformation/Exercise04_2.cpp.i
+Exercise/Exercise05_Coordinate/Exercise05_3.i: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
 
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.i
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.i
 
 # target to preprocess a source file
-Exercise/Exercise04_Transformation/Exercise04_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.i
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.cpp.i
+Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
 
-Exercise/Exercise04_Transformation/Exercise04_2.s: Exercise/Exercise04_Transformation/Exercise04_2.cpp.s
+Exercise/Exercise05_Coordinate/Exercise05_3.s: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
 
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.s
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.s
 
 # target to generate assembly for a file
-Exercise/Exercise04_Transformation/Exercise04_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.s
-.PHONY : Exercise/Exercise04_Transformation/Exercise04_2.cpp.s
+Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
+.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise04_Transformation/Exercise04_2.obj
-	@echo ... Exercise/Exercise04_Transformation/Exercise04_2.i
-	@echo ... Exercise/Exercise04_Transformation/Exercise04_2.s
+	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.obj
+	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.i
+	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

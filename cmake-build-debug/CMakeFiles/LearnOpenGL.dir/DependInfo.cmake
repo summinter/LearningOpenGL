@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise04_Transformation/Exercise04_2.cpp" "C:/Users/ccyys/CLionProjects/LearnOpenGL/cmake-build-debug/CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj"
+  "C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise05_Coordinate/Exercise05_3.cpp" "C:/Users/ccyys/CLionProjects/LearnOpenGL/cmake-build-debug/CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -5,8 +5,8 @@ CMakeFiles/LearnOpenGL.dir/src/glad.c.obj
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
  C:/Users/ccyys/CLionProjects/LearnOpenGL/src/glad.c
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.obj
- ../Shader/shader_s.h
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
+ ../Shader/shader_m.h
  ../include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
@@ -212,4 +212,4 @@ CMakeFiles/LearnOpenGL.dir/Exercise/Exercise04_Transformation/Exercise04_2.cpp.o
  ../include/glm/vec4.hpp
  ../include/glm/vector_relational.hpp
  ../stb_image.h
- C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise04_Transformation/Exercise04_2.cpp
+ C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise05_Coordinate/Exercise05_3.cpp
