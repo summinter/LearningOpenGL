@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise05_Coordinate/Exercise05_3.obj: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
+Exercise/Exercise06_Camera/Exercise06_1.obj: Exercise/Exercise06_Camera/Exercise06_1.cpp.obj
 
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.obj
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.obj
 
 # target to build an object file
-Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
+Exercise/Exercise06_Camera/Exercise06_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise06_Camera/Exercise06_1.cpp.obj
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.cpp.obj
 
-Exercise/Exercise05_Coordinate/Exercise05_3.i: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
+Exercise/Exercise06_Camera/Exercise06_1.i: Exercise/Exercise06_Camera/Exercise06_1.cpp.i
 
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.i
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.i
 
 # target to preprocess a source file
-Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.i
+Exercise/Exercise06_Camera/Exercise06_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise06_Camera/Exercise06_1.cpp.i
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.cpp.i
 
-Exercise/Exercise05_Coordinate/Exercise05_3.s: Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
+Exercise/Exercise06_Camera/Exercise06_1.s: Exercise/Exercise06_Camera/Exercise06_1.cpp.s
 
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.s
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.s
 
 # target to generate assembly for a file
-Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
-.PHONY : Exercise/Exercise05_Coordinate/Exercise05_3.cpp.s
+Exercise/Exercise06_Camera/Exercise06_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise06_Camera/Exercise06_1.cpp.s
+.PHONY : Exercise/Exercise06_Camera/Exercise06_1.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.obj
-	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.i
-	@echo ... Exercise/Exercise05_Coordinate/Exercise05_3.s
+	@echo ... Exercise/Exercise06_Camera/Exercise06_1.obj
+	@echo ... Exercise/Exercise06_Camera/Exercise06_1.i
+	@echo ... Exercise/Exercise06_Camera/Exercise06_1.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

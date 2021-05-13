@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj"
+  "CMakeFiles/LearnOpenGL.dir/Exercise/Exercise06_Camera/Exercise06_1.cpp.obj"
   "CMakeFiles/LearnOpenGL.dir/src/glad.c.obj"
   "LearnOpenGL.exe"
   "LearnOpenGL.exe.manifest"

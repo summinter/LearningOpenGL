@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../Camera/Camera.h
+glad/glad.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+vector
+-
+
 ../Shader/shader_m.h
 glad/glad.h
 -
@@ -1512,7 +1522,7 @@ intrin.h
 arm_neon.h
 -
 
-C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise05_Coordinate/Exercise05_3.cpp
+C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise06_Camera/Exercise06_1.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -1527,6 +1537,8 @@ glm/gtc/type_ptr.hpp
 -
 ../Shader/shader_m.h
 C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Shader/shader_m.h
+../Camera/Camera.h
+C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Camera/Camera.h
 iostream
 -
 

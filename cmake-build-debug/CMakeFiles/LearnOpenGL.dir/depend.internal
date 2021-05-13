@@ -5,7 +5,8 @@ CMakeFiles/LearnOpenGL.dir/src/glad.c.obj
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
  C:/Users/ccyys/CLionProjects/LearnOpenGL/src/glad.c
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
+CMakeFiles/LearnOpenGL.dir/Exercise/Exercise06_Camera/Exercise06_1.cpp.obj
+ ../Camera/Camera.h
  ../Shader/shader_m.h
  ../include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
@@ -212,4 +213,4 @@ CMakeFiles/LearnOpenGL.dir/Exercise/Exercise05_Coordinate/Exercise05_3.cpp.obj
  ../include/glm/vec4.hpp
  ../include/glm/vector_relational.hpp
  ../stb_image.h
- C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise05_Coordinate/Exercise05_3.cpp
+ C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise06_Camera/Exercise06_1.cpp
