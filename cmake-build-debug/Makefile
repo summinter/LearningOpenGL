@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise09_Material/Exercise09.obj: Exercise/Exercise09_Material/Exercise09.cpp.obj
+Exercise/Exercise10_LightingMaps/Exercise10_1.obj: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
 
-.PHONY : Exercise/Exercise09_Material/Exercise09.obj
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.obj
 
 # target to build an object file
-Exercise/Exercise09_Material/Exercise09.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise09_Material/Exercise09.cpp.obj
-.PHONY : Exercise/Exercise09_Material/Exercise09.cpp.obj
+Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
 
-Exercise/Exercise09_Material/Exercise09.i: Exercise/Exercise09_Material/Exercise09.cpp.i
+Exercise/Exercise10_LightingMaps/Exercise10_1.i: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
 
-.PHONY : Exercise/Exercise09_Material/Exercise09.i
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.i
 
 # target to preprocess a source file
-Exercise/Exercise09_Material/Exercise09.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise09_Material/Exercise09.cpp.i
-.PHONY : Exercise/Exercise09_Material/Exercise09.cpp.i
+Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
 
-Exercise/Exercise09_Material/Exercise09.s: Exercise/Exercise09_Material/Exercise09.cpp.s
+Exercise/Exercise10_LightingMaps/Exercise10_1.s: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
 
-.PHONY : Exercise/Exercise09_Material/Exercise09.s
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.s
 
 # target to generate assembly for a file
-Exercise/Exercise09_Material/Exercise09.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise09_Material/Exercise09.cpp.s
-.PHONY : Exercise/Exercise09_Material/Exercise09.cpp.s
+Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
+.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise09_Material/Exercise09.obj
-	@echo ... Exercise/Exercise09_Material/Exercise09.i
-	@echo ... Exercise/Exercise09_Material/Exercise09.s
+	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.obj
+	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.i
+	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
