@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise10_LightingMaps/Exercise10_1.obj: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
 
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.obj
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj
 
 # target to build an object file
-Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.obj
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
 
-Exercise/Exercise10_LightingMaps/Exercise10_1.i: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
 
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.i
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i
 
 # target to preprocess a source file
-Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.i
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
 
-Exercise/Exercise10_LightingMaps/Exercise10_1.s: Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
 
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.s
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s
 
 # target to generate assembly for a file
-Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
-.PHONY : Exercise/Exercise10_LightingMaps/Exercise10_1.cpp.s
+Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
+.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.obj
-	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.i
-	@echo ... Exercise/Exercise10_LightingMaps/Exercise10_1.s
+	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj
+	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i
+	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
