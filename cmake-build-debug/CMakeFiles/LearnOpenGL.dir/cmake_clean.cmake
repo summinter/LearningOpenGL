@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj"
+  "CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj"
   "CMakeFiles/LearnOpenGL.dir/src/glad.c.obj"
   "LearnOpenGL.exe"
   "LearnOpenGL.exe.manifest"

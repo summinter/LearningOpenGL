@@ -85,13 +85,13 @@
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Camera/Camera.h">
 			<Option target="LearnOpenGL"/>
 		</Unit>
-		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp">
-			<Option target="LearnOpenGL"/>
-		</Unit>
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Shader/shader_m.h">
 			<Option target="LearnOpenGL"/>
 		</Unit>
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/Shader/shader_s.h">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/newVis.cpp">
 			<Option target="LearnOpenGL"/>
 		</Unit>
 		<Unit filename="C:/Users/ccyys/CLionProjects/LearnOpenGL/src/glad.c">

@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
+newVis.obj: newVis.cpp.obj
 
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj
+.PHONY : newVis.obj
 
 # target to build an object file
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.obj
+newVis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj
+.PHONY : newVis.cpp.obj
 
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
+newVis.i: newVis.cpp.i
 
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i
+.PHONY : newVis.i
 
 # target to preprocess a source file
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.i
+newVis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.i
+.PHONY : newVis.cpp.i
 
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s: Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
+newVis.s: newVis.cpp.s
 
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s
+.PHONY : newVis.s
 
 # target to generate assembly for a file
-Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
-.PHONY : Exercise/Exercise11_LightCasters/FlashLight/FlashLight.cpp.s
+newVis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.s
+.PHONY : newVis.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.obj
-	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.i
-	@echo ... Exercise/Exercise11_LightCasters/FlashLight/FlashLight.s
+	@echo ... newVis.obj
+	@echo ... newVis.i
+	@echo ... newVis.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
