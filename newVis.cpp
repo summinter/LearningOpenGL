@@ -1,7 +1,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include "stb_image.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -14,8 +13,8 @@ using namespace std;
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 1920;
+const unsigned int SCR_HEIGHT = 1080;
 float* readPointCloud(string name);
 void pcdToXyz(string infilePath, string outfilePath);
 void pcdToXyztgb(string infilePath, string outfilePath);
@@ -28,12 +27,6 @@ static float size = 1;
 static float trans_x = 0, trans_y = 0, trans_z = 0;
 static string pcdName ="C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\asset\\data\\point_cloud\\kk.pcd";
 static string txtName = "C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\asset\\data\\point_cloud\\rops_cloud.txt";
-glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f, 3.0f);
-glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
-glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f);
-glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
-glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
 float angleZ = 0, angleX = 0, angleY = 0;
 bool firstMouse = true;
 float lastX = SCR_WIDTH / 2.0f;

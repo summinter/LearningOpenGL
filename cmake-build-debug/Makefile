@@ -142,32 +142,32 @@ LearnOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
 .PHONY : LearnOpenGL/fast
 
-newVis.obj: newVis.cpp.obj
+Exercise/Exercise12_MultipleLights/Exercise12.obj: Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj
 
-.PHONY : newVis.obj
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.obj
 
 # target to build an object file
-newVis.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj
-.PHONY : newVis.cpp.obj
+Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj
 
-newVis.i: newVis.cpp.i
+Exercise/Exercise12_MultipleLights/Exercise12.i: Exercise/Exercise12_MultipleLights/Exercise12.cpp.i
 
-.PHONY : newVis.i
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.i
 
 # target to preprocess a source file
-newVis.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.i
-.PHONY : newVis.cpp.i
+Exercise/Exercise12_MultipleLights/Exercise12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.i
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.cpp.i
 
-newVis.s: newVis.cpp.s
+Exercise/Exercise12_MultipleLights/Exercise12.s: Exercise/Exercise12_MultipleLights/Exercise12.cpp.s
 
-.PHONY : newVis.s
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.s
 
 # target to generate assembly for a file
-newVis.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/newVis.cpp.s
-.PHONY : newVis.cpp.s
+Exercise/Exercise12_MultipleLights/Exercise12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.s
+.PHONY : Exercise/Exercise12_MultipleLights/Exercise12.cpp.s
 
 src/glad.obj: src/glad.c.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LearnOpenGL
-	@echo ... newVis.obj
-	@echo ... newVis.i
-	@echo ... newVis.s
+	@echo ... Exercise/Exercise12_MultipleLights/Exercise12.obj
+	@echo ... Exercise/Exercise12_MultipleLights/Exercise12.i
+	@echo ... Exercise/Exercise12_MultipleLights/Exercise12.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
