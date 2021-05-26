@@ -76,19 +76,19 @@ include CMakeFiles/LearnOpenGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LearnOpenGL.dir/flags.make
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj: CMakeFiles/LearnOpenGL.dir/flags.make
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj: CMakeFiles/LearnOpenGL.dir/includes_CXX.rsp
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj: ../Exercise/Exercise12_MultipleLights/Exercise12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ccyys\CLionProjects\LearnOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise12_MultipleLights\Exercise12.cpp.obj -c C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise12_MultipleLights\Exercise12.cpp
+CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj: CMakeFiles/LearnOpenGL.dir/flags.make
+CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj: CMakeFiles/LearnOpenGL.dir/includes_CXX.rsp
+CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj: ../newVis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ccyys\CLionProjects\LearnOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnOpenGL.dir\newVis.cpp.obj -c C:\Users\ccyys\CLionProjects\LearnOpenGL\newVis.cpp
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise12_MultipleLights\Exercise12.cpp > CMakeFiles\LearnOpenGL.dir\Exercise\Exercise12_MultipleLights\Exercise12.cpp.i
+CMakeFiles/LearnOpenGL.dir/newVis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/newVis.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ccyys\CLionProjects\LearnOpenGL\newVis.cpp > CMakeFiles\LearnOpenGL.dir\newVis.cpp.i
 
-CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ccyys\CLionProjects\LearnOpenGL\Exercise\Exercise12_MultipleLights\Exercise12.cpp -o CMakeFiles\LearnOpenGL.dir\Exercise\Exercise12_MultipleLights\Exercise12.cpp.s
+CMakeFiles/LearnOpenGL.dir/newVis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/newVis.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ccyys\CLionProjects\LearnOpenGL\newVis.cpp -o CMakeFiles\LearnOpenGL.dir\newVis.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/src/glad.c.obj: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/glad.c.obj: CMakeFiles/LearnOpenGL.dir/includes_C.rsp
@@ -106,13 +106,13 @@ CMakeFiles/LearnOpenGL.dir/src/glad.c.s: cmake_force
 
 # Object files for target LearnOpenGL
 LearnOpenGL_OBJECTS = \
-"CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj" \
+"CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj" \
 "CMakeFiles/LearnOpenGL.dir/src/glad.c.obj"
 
 # External object files for target LearnOpenGL
 LearnOpenGL_EXTERNAL_OBJECTS =
 
-LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/Exercise/Exercise12_MultipleLights/Exercise12.cpp.obj
+LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/newVis.cpp.obj
 LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/src/glad.c.obj
 LearnOpenGL.exe: CMakeFiles/LearnOpenGL.dir/build.make
 LearnOpenGL.exe: ../lib/glfw3.dll

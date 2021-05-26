@@ -35,7 +35,8 @@ float colorR = 0.5f;
 float colorG = 0.5f;
 float colorB = 0.5f;
 float fov = 45.0f;
-
+float maxX = -1.0f, maxY = -1.0f, maxZ = -1.0f;
+float minX = 1.0f, minY = 1.0f, minZ = 1.0f;
 int main()
 {
     // glfw: initialize and configure
@@ -79,12 +80,80 @@ int main()
 
     float *vertices = readPointCloud(txtName);
 
-    unsigned int VBO, VAO;
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+
+    for(int i = 0;i < verticeNum;i++){
+        if(i%3==0){
+            if(vertices[i] > maxX){
+                maxX = vertices[i];
+            }
+            if(vertices[i] < minX){
+                minX = vertices[i];
+            }
+        }else if(i%3==1){
+            if(vertices[i] > maxY){
+                maxY = vertices[i];
+            }
+            if(vertices[i] < minY){
+                minY = vertices[i];
+            }
+        }else{
+            if(vertices[i] > maxZ){
+                maxZ = vertices[i];
+            }
+            if(vertices[i] < minZ){
+                minZ = vertices[i];
+            }
+        }
+    }
+    float redBox[] = {
+            minX,maxY,minZ,
+            minX,maxY,maxZ,
+            maxX,maxY,maxZ,
+            minX,maxY,maxZ,
+            maxX,maxY,maxZ,
+            maxX,maxY,minZ,
+            minX,maxY,minZ,
+            maxX,maxY,minZ, //up 4
+            minX,minY,minZ,
+            minX,minY,maxZ,
+            maxX,minY,maxZ,
+            minX,minY,maxZ,
+            maxX,minY,maxZ,
+            maxX,minY,minZ,
+            minX,minY,minZ,
+            maxX,minY,minZ, //down 4
+            minX,minY,minZ,
+            minX,maxY,minZ,
+            minX,minY,maxZ,
+            minX,maxY,maxZ,
+            maxX,minY,minZ,
+            maxX,maxY,minZ,
+            maxX,minY,maxZ,
+            maxX,maxY,maxZ //middle 4
+    };
+
+    cout << maxX << " " << maxY << " " << maxZ << endl;
+    cout << minX << " " << minY << " " << minZ << endl;
+
+
+
+    unsigned int VBO[2], VAO[2];
+    glGenVertexArrays(2, VAO);
+    glGenBuffers(2, VBO);
+
+    //first one
+    glBindVertexArray(VAO[0]);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
     glBufferData(GL_ARRAY_BUFFER, verticeNum*4, vertices, GL_STATIC_DRAW);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
+
+    //second one
+    glBindVertexArray(VAO[1]);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[1]);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 24 * 3, redBox, GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
@@ -135,9 +204,13 @@ int main()
         glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
 
         // render container
-        glBindVertexArray(VAO);
+        glBindVertexArray(VAO[0]);
         glPointSize(5.0);
         glDrawArrays(GL_POINTS, 0, verticeNum/3);
+
+        //draw box
+        glBindVertexArray(VAO[1]);
+        glDrawArrays(GL_LINES, 0, 24);
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
@@ -145,8 +218,8 @@ int main()
 
     // optional: de-allocate all resources once they've outlived their purpose:
     // ------------------------------------------------------------------------
-    glDeleteVertexArrays(1, &VAO);
-    glDeleteBuffers(1, &VBO);
+    glDeleteVertexArrays(2, VAO);
+    glDeleteBuffers(2, VBO);
 
     // glfw: terminate, clearing all previously allocated GLFW resources.
     // ------------------------------------------------------------------
