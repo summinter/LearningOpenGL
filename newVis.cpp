@@ -362,8 +362,8 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos)
 
 }
 
-//把一个txt文件转为Mat
-Mat PcdtxtToMat(string location) {
+//文本转为mat
+Mat txttomat(string location) {
     ifstream myfile(location);
     int count = 0;
     char c;
@@ -391,24 +391,26 @@ Mat PcdtxtToMat(string location) {
 
 
     Mat temp = Mat(count, 3, CV_32F, Scalar::all(0));
-    for (int i = 0; i < count; i++) {
-        for (int j = 0; j < 3; j++) {
-            temp.at<float>(i, j) = arr[i][j];
+
+    for (int i = 0; i < count; ++i)
+    {
+        for (int j = 0; j < 3; ++j)
+        {
+            temp.ptr<float>(i)[j] = arr[i][j];
         }
     }
-
     return temp;
 }
 
-//把一个Mat类输出为txt
-void MatToPcdtxt(Mat a, string location) {
+//mat输出为文本
+void mattotxt(Mat a, string location) {
     ofstream outfile(location);
     int count = a.rows;
 
 
     for (int i = 0; i < count; i++) {
 
-        outfile << a.at<float>(i, 0) << " " << a.at<float>(i, 1) << " " << a.at<float>(i, 2) << endl;
+        outfile << a.ptr<float>(i)[0] << " " << a.ptr<float>(i)[1] << " " << a.ptr<float>(i)[0] << endl;
 
     }
     outfile.close();
