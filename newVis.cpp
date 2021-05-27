@@ -5,7 +5,6 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
 #include "Shader/shader_m.h"
 using namespace std;
 #include <iostream>
@@ -74,6 +73,7 @@ int main()
     // build and compile our shader zprogram
     // ------------------------------------
     Shader ourShader("C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\vs\\5.1.transform.vs", "C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\fs\\5.1.transform.fs");
+    Shader redBoxShader("C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\vs\\shaderRedBox.vs", "C:\\Users\\ccyys\\CLionProjects\\LearnOpenGL\\fs\\shaderRedBox.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -209,11 +209,20 @@ int main()
         glDrawArrays(GL_POINTS, 0, verticeNum/3);
 
         //draw box
+
+        redBoxShader.use();
+        transformLoc = glGetUniformLocation(redBoxShader.ID, "transform");
+        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
+
         glBindVertexArray(VAO[1]);
         glDrawArrays(GL_LINES, 0, 24);
+
+        ourShader.use();
+
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
+
     }
 
     // optional: de-allocate all resources once they've outlived their purpose:
